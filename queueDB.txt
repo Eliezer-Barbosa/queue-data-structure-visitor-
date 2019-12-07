@@ -1,0 +1,19 @@
+DROP DATABASE IF EXISTS queuevisitor;
+CREATE DATABASE IF NOT EXISTS queuevisitor;
+USE queuevisitor;
+
+CREATE TABLE IF NOT EXISTS queue (
+	id int(11) NOT NULL AUTO_INCREMENT,
+	firstName varchar(50) NOT NULL DEFAULT 0,
+	lastName varchar(50) NOT NULL DEFAULT 0,
+	passport varchar(50) NOT NULL DEFAULT 0,
+	priority varchar(50) NOT NULL DEFAULT 0,
+	PRIMARY KEY(id));
+
+INSERT INTO queue (firstName, lastName, passport, priority) VALUES
+	("Goku", "Kakaroto", "951446", "LOW"),
+	("Naruto", "Uzumaki", "154875", "LOW"),
+	("Gohan", "super", "950125", "HIGH"),
+	("Vegeta", "saiyan", "755848", "MEDIUM"),
+	("Seiya", "pegasus", "2015024", "HIGH"),
+	("Ryu", "fighter", "219984", "MEDIUM");
