@@ -1,5 +1,8 @@
 # queue-data-structure-visitor-
 
+clone thid repo into your workspace.
+Then, copy the database file into your database system.
+
 Assignment Introduction
   
   The Immigration department has contacted you outlining that they currently do not have a method of processing who is next in line to be seen by the immigration officer at the counter. As the immigration department is quite busy in the months of September and February due to new students in the country, often people take a ticket, leave and then come back later to see if it is their time to meet with the immigration officer. 
